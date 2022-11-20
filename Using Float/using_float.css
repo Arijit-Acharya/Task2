@@ -1,0 +1,194 @@
+/* root section  */
+* {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+/* Common elements */
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background: no-repeat;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image {
+    border-radius: 10px;
+    background: no-repeat;
+    padding: 0px;
+}
+
+img {
+    background: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.text {
+    background: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text h2,
+.text p,
+.text h3 {
+    padding: 5px;
+    background: no-repeat;
+    margin-block: 0px;
+}
+
+.text h2 {
+    font-size: xx-large;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+
+
+/* Specific Elements */
+.about {
+    margin: 0px 20px;
+}
+
+.about p {
+    margin: 5px auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    height: 600px;
+    margin: 15px 20px;
+    box-sizing: border-box;
+}
+
+.left,
+.right {
+    height: 93%;
+    float: left;
+    margin: 10px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.left {
+    float: left;
+    width: 45.3%;
+    padding: 15px;
+}
+
+.left .image {
+    height: 53%;
+    margin: 10px;
+}
+
+.left .text {
+    height: 100px;
+}
+
+.left .btn {
+    height: 10%;
+    margin: 10px auto;
+    background: no-repeat;
+}
+
+.right {
+    float: right;
+    width: 52%;
+    padding: 15px;
+}
+
+.right .sec1,
+.right .sec2 {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.644);
+    height: 140px;
+    margin-bottom: 5px;
+    background: no-repeat;
+}
+
+.right .sec1 .image,
+.right .sec2 .image {
+    float: left;
+    height: 125px;
+    width: 200px;
+}
+
+.right .sec1 .text,
+.right .sec2 .text {
+    float: right;
+    height: 125px;
+    padding: 0px;
+    width: 430px;
+}
+
+.right .sec1 .text h2 {
+    font-size: x-large;
+}
+
+.right .sec2 .text p {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 43px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.right .sec3 {
+    background: no-repeat;
+    height: 70px;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+}
+
+.right .sec3 .text {
+    padding: 2px;
+}
+
+.right .sec3 .text h3,
+.right .sec3 .text p {
+    padding: 5px;
+}
+
+.right .sec3 .text h3 {
+    font-size: 25px;
+}
+
+.right .sec4 {
+    border-top: 2px solid black;
+    background: no-repeat;
+    height: 70px;
+    margin: 10px -15px;
+    padding: 3px 15px;
+
+}
+
+.sec4 .btn {
+    margin-top: 15px;
+}
+
+.sec4 button {
+    height: 40px;
+    border: none;
+}
+
+.sec4 #btn1 {
+    color: white;
+    background-color: black;
+    float: left;
+}
+
+.sec4 #btn2 {
+    color: white;
+    background-color: darkcyan;
+    float: right;
+}
